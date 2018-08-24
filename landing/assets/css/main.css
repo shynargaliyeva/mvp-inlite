@@ -1,0 +1,257 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "FuturaMedium";
+  src: url("../fonts/futura/FuturaMediumC.eot");
+  src: local("Futura Medium Cyrillic"), local("FuturaMediumC"), url("../fonts/futura/FuturaMediumC.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaMediumC.woff") format("woff"), url("../fonts/futura/FuturaMediumC.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FuturaLight";
+  src: url("../fonts/futura/FuturaLightC-Italic.eot");
+  src: local("Futura Light Italic Cyrillic"), local("FuturaLightC-Italic"), url("../fonts/futura/FuturaLightC-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaLightC-Italic.woff") format("woff"), url("../fonts/futura/FuturaLightC-Italic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "FuturaMedium";
+  src: url("../fonts/futura/FuturaMediumC-Italic.eot");
+  src: local("Futura Medium Italic Cyrillic"), local("FuturaMediumC-Italic"), url("../fonts/futura/FuturaMediumC-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaMediumC-Italic.woff") format("woff"), url("../fonts/futura/FuturaMediumC-Italic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "FuturaLight";
+  src: url("../fonts/futura/FuturaLightC.eot");
+  src: local("Futura Light Cyrillic"), local("FuturaLightC"), url("../fonts/futura/FuturaLightC.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaLightC.woff") format("woff"), url("../fonts/futura/FuturaLightC.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FuturaBook";
+  src: url("../fonts/futura/FuturaBookC-Italic.eot");
+  src: local("Futura Book Italic Cyrillic"), local("FuturaBookC-Italic"), url("../fonts/futura/FuturaBookC-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaBookC-Italic.woff") format("woff"), url("../fonts/futura/FuturaBookC-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+@font-face {
+  font-family: "FuturaBook";
+  src: url("../fonts/futura/FuturaBookC.eot");
+  src: local("Futura Book Cyrillic"), local("FuturaBookC"), url("../fonts/futura/FuturaBookC.eot?#iefix") format("embedded-opentype"), url("../fonts/futura/FuturaBookC.woff") format("woff"), url("../fonts/futura/FuturaBookC.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+html, body {
+  font-family: "FuturaMedium", sans-serif;
+  font-size: 15px;
+}
+
+.center {
+  text-align: center !important;
+}
+
+.cormorant {
+  font-family: "Cormorant Garamond", sans-serif !important;
+}
+
+.lead {
+  font-size: 18px;
+}
+
+.link {
+  text-decoration: none;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  display: inline-block;
+  cursor: pointer;
+}
+.link.default {
+  font-size: 18px;
+  color: #454545;
+  padding: 9px 13px;
+}
+.link.default:hover {
+  border: 1px solid #454545;
+  border-radius: 40px;
+}
+.link.button {
+  padding: 20px 50px 15px;
+  background-color: #b0ceb6;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #fff;
+}
+.link.footer {
+  font-size: 13px;
+  color: #595f5e;
+}
+
+.input {
+  padding: 28px 0 26px 28px;
+  width: 320px;
+  border-radius: 160px;
+  border: 1px solid #979797;
+}
+
+.input-button {
+  padding: 28px 26px;
+  border-radius: 60px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+.nav {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.nav-footer {
+  height: 2px;
+  background-color: #979797;
+}
+
+.title {
+  font-size: 50px;
+  font-weight: 700;
+}
+.title-25 {
+  font-size: 25px;
+}
+.title-32 {
+  font-size: 32px;
+}
+
+.section {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+.section.big-margin {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.img {
+  object-fit: contain;
+}
+.img.cover {
+  object-fit: cover;
+}
+.img.gutter {
+  margin: 0 15px;
+}
+.img.circle {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+.text-18 {
+  font-size: 18px;
+}
+.text-gray-1 {
+  color: #898686;
+}
+.text-gray-2 {
+  color: #6b6868;
+}
+.text-gray-3 {
+  color: #7d7a7a;
+}
+
+.ul {
+  list-style: none;
+}
+
+.li.orange::before {
+  content: "•";
+  color: #ff9681;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.li.brown::before {
+  content: "•";
+  color: #b79778;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.bg {
+  padding: 300px 0;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-1 {
+  background-color: rgba(247, 243, 106, 0.1);
+  background-image: url(../images/sections/Blond_girl.png);
+}
+.bg-2 {
+  background-color: rgba(247, 243, 106, 0.1);
+  background-image: url(../images/sections/A_guy_in_red.png);
+}
+
+.glide__bullets {
+  position: absolute;
+  z-index: 2;
+  bottom: -1em;
+  left: 50%;
+  display: inline-flex;
+  list-style: none;
+  transform: translateX(-50%);
+}
+
+.glide__bullet {
+  background-color: #d8d8d8;
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: all 300ms ease-in-out;
+  cursor: pointer;
+  line-height: 0;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
+  margin: 0 0.25em;
+}
+
+.glide__bullet:focus {
+  outline: none;
+}
+
+.glide__bullet:hover, .glide__bullet:focus {
+  border: 1px solid #d8d8d8;
+  background-color: #ff9681;
+}
+
+.glide__bullet--active {
+  background-color: #ff9681;
+}
+
+.footer {
+  background-color: #f9f9f9;
+}
+
+.icon {
+  background: url(../images/sections/social.png) no-repeat;
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+  cursor: pointer;
+}
+.icon.medium {
+  background-position: -2px -4px;
+}
+.icon.fb {
+  background-position: -72px -4px;
+}
+.icon.twitter {
+  background-position: -144px -4px;
+}
+.icon.instagram {
+  background-position: -218px -4px;
+}
+
+/*# sourceMappingURL=main.css.map */

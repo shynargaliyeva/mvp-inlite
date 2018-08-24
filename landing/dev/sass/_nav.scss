@@ -1,0 +1,11 @@
+$gray: #979797;
+
+.nav {
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	&-footer {
+		height: 2px;
+		background-color: $gray;
+	}
+}

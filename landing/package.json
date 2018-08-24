@@ -1,0 +1,6 @@
+{
+	"name": "inlite",
+	"scripts": {
+		"compile-sass": "sass --watch ./dev/sass:./assets/css"
+	}
+}
