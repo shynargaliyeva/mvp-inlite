@@ -1,0 +1,98 @@
+.title {
+	font-size: 50px;
+	font-weight: 700;
+
+	&-25 {
+		font-size: 25px;
+	}
+
+	&-32 {
+		font-size: 32px;
+	}
+}
+
+.section {
+	margin-top: 70px;
+	margin-bottom: 70px;
+
+	&.big-margin {
+		margin-top: 120px;
+		margin-bottom: 120px;
+	}
+}
+
+.img {
+	object-fit: contain;
+
+	&.cover {
+		object-fit: cover;
+	}
+
+	&.gutter {
+		margin: 0 15px;
+	}
+
+	&.circle {
+		height: 120px;
+		width: 120px;
+		border-radius: 50%;
+	}
+}
+
+.text {
+	&-18 {
+		font-size: 18px;
+	}
+
+	&-gray {
+		&-1 {
+			color: #898686;
+		}
+		&-2 {
+			color: #6b6868;
+		}
+		&-3 {
+			color: #7d7a7a;
+		}
+	}
+}
+
+.ul {
+	list-style: none;
+}
+
+.li {
+	&.orange {
+		&::before {
+			content: "•";
+			color: #ff9681;
+			display: inline-block;
+			width: 1em;
+			margin-left: -1em;
+		}
+	}
+	&.brown {
+		&::before {
+			content: "•";
+			color: #b79778;
+			display: inline-block;
+			width: 1em;
+			margin-left: -1em;
+		}
+	}
+}
+
+.bg {
+	padding: 300px 0;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	&-1 {
+		background-color: rgba(247,243,106, 0.1);
+		background-image: url(../images/sections/Blond_girl.png);
+	}
+	&-2 {
+		background-color: rgba(247,243,106, 0.1);
+		background-image: url(../images/sections/A_guy_in_red.png);
+	}
+}
