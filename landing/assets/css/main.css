@@ -55,7 +55,7 @@ html, body {
 }
 
 .lead {
-  font-size: 18px;
+  font-size: 21px;
 }
 
 .link {
@@ -112,8 +112,8 @@ html, body {
 }
 
 .title {
-  font-size: 50px;
-  font-weight: 700;
+  font-size: 80px;
+  font-weight: 500;
 }
 .title-25 {
   font-size: 25px;
